@@ -16,5 +16,6 @@
   "dependencies": {
     "axios": "^0.21.0",
     "youtube-sr": "^2.0.4"
-  }
+  },
+  "license": "MIT"
 }
