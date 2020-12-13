@@ -1,5 +1,5 @@
 const axios = require("axios")
-const { author, version } = require("package.json")
+const { author, version } = require("./package.json")
 
 /**
 * Search anime character
@@ -146,4 +146,13 @@ async function emojipacks() {
   return data.data;
 }
 
-module.exports = { animesearch, character, pokedex, lyrics, hentai, locate, clyde, kannagen, boobs, youtubesearch, neko, manga, emoji, emojipacks, author, version }
+/**
+* Get Github Users
+* @returns {Promise<Object[]>} `Promise<Object[]>`
+*/
+async function github(query) {
+  const data = await axios.get("http://api.github.com/users" + query)
+  return data.data;
+}
+
+module.exports = { animesearch, character, pokedex, lyrics, hentai, locate, clyde, kannagen, boobs, youtubesearch, neko, manga, emoji, emojipacks, author, version, github }
