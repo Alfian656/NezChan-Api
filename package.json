@@ -1,5 +1,5 @@
 {
-  "name": "nezchan-api",
+  "name": "@nezchan/nezchan-api",
   "version": "0.1.10",
   "description": "nezchan api simple api",
   "main": "index.js",
