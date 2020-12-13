@@ -151,7 +151,8 @@ async function emojipacks() {
 * @returns {Promise<Object[]>} `Promise<Object[]>`
 */
 async function github(query) {
-  const data = await axios.get("http://api.github.com/users" + query)
+  if(!query) throw Error("Please Enter Username")
+  const data = await axios.get("http://api.github.com/users/" + query)
   return data.data;
 }
 
