@@ -1,0 +1,19 @@
+{
+  "name": "nezchan-api",
+  "version": "0.1.10",
+  "description": "nezchan api simple api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/Alfian656/NezChan-api.git",
+  "keywords": [
+    "axios",
+    "api"
+  ],
+  "author": "N E Z U K O",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "youtube-sr": "^2.0.4"
+  }
+}
