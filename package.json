@@ -1,6 +1,6 @@
 {
   "name": "@nezchan/nezchan-api",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "description": "nezchan api simple api",
   "main": "index.js",
   "scripts": {
